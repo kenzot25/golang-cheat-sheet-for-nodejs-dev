@@ -36,19 +36,13 @@ go version
 cd /path/to/go-course
 ```
 
-### 2️⃣ Initialize Go module
+### 2️⃣ Run the application
 
 ```bash
-go mod init go-course
+go run *.go
 ```
 
-### 3️⃣ Run the application
-
-```bash
-go run main.go
-```
-
-### 4️⃣ Verify it’s running
+### 3️⃣ Verify it’s running
 
 ```bash
 curl http://localhost:8080/users
@@ -58,14 +52,6 @@ Expected response:
 ```json
 []
 ```
-
-Or build and run manually:
-
-```bash
-go build -o user-api .
-./user-api
-```
-
 ---
 
 ## 📡 API Endpoints
